@@ -1,0 +1,50 @@
+h1 {
+color: #ffffff;
+text-align: center;
+background-color:#FF0000;
+}
+
+
+
+
+.Origami{
+background-color: #126ef6;
+border-radius: 20px;
+padding: 30px;
+margin: 25px;
+width:310px;
+}
+
+
+
+
+
+.grid{
+    background-color: #C0C0C0;
+display:flex;
+flex-wrap: wrap;
+margin:40px;
+}
+.hover{
+    position:relative;
+    
+       
+    }
+    .hover p{
+    
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    }
+    .hover:hover p{opacity:1}
+    .hover:hover img{
+        opacity:0.3;
+    }
+    /* * {
+        border: solid;
+    } */
+
+
+
